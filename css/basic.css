@@ -1,0 +1,88 @@
+* {
+  margin: auto;
+}
+
+/* As basic box for other site except homepage */
+#second_main {
+  width: 100%;
+  padding-bottom: 10%;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+  background-color: #d2f0d2;
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 0.1%;
+}
+
+footer {
+  background-color: #d2f0d2;
+  padding-left: 5%;
+  padding-top: 1%;
+  height: 92px;
+  margin-top: -39px;
+}
+
+body {
+  font-family: Quicksand, sans-serif;
+  background-color: aliceblue;
+}
+
+/*Make it easy for the title box*/
+h3 {
+  background-color: #a19f9f;
+  color: #fffafa;
+  padding: 5px;
+  margin-top: -6px;
+  text-align: left;
+}
+
+.navigation {
+  overflow: hidden;
+  color: black;
+}
+
+.navigation a {
+  display: inline;
+  text-decoration: none;
+  transition: all .3s;
+}
+
+/* Change color on hover */
+.navigation a:hover {
+  background-color: #a9a9a9;
+}
+
+section {
+  display: flex;
+  justify-items: center;
+  margin-bottom: 4%;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #a19f9f;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  padding: 6px 20px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 680px) {
+  #header {
+    width: auto;
+    float: none;
+  }
+  #sidebar {
+    width: auto;
+    float: none;
+  }
+}

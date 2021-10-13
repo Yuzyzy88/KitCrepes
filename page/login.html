@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/basic.js"></script>
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/basic.css">
+    <title>KitCrepes</title>
+</head>
+
+<body>
+    <header>
+        <img src="../img/sweet.png" alt="Mistake" width="15%">
+        <div class="topnav">
+            <a href="../index.html" style="color:lightcyan">Home</a>
+            <a href="../page/menu.html" style="float:right; color:lightcyan">Menu</a>
+        </div>
+    </header>
+
+    <div id="second_main" style="margin-top: 2%; margin-bottom: -2%;">
+        <div class="main_box">
+            <div id=login_content>
+                <div id="login_title">
+                    <h2>LogIn</h2>
+                    <div class="underline_title"></div>
+                </div>
+
+                <form method="post" target="_self" class="form">
+                    <label for="email" style="padding-top: 10%;">Email</label>
+                    <input type="email" class="form_content" id="email" name="email" autocomplete="on" required>
+                    <div class="form_border"></div>
+
+                    <label for="password" style="padding-top: 8%;">Password</label>
+                    <input type="password" class="form_content" id="password" name="password" autocomplete="on"
+                        required>
+                    <div class="form_border"></div>
+                </form>
+
+                <a href="#">
+                    <legend id="forgot_password">Forgot Password?</legend>
+                </a>
+
+                <button id="button" onclick="login_clicked()" class="submit_button">Login</button>
+                <div class="center_box">
+                    <a href="#" id="signup">Don't have account yet?</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer style="margin-top: -3.4%;">
+        <p><img src="../img/instagram.png" alt="Mistake" width="4%"> @KitCrepes</p>
+    </footer>
+</body>
+
+</html>

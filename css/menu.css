@@ -1,0 +1,35 @@
+/* That box in the left side */
+#basic_box {
+  width: 100%;
+  margin: 1em;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(276px, 1fr));
+  justify-items: center;
+  row-gap: 1em;
+  column-gap: 1em;
+}
+
+/* As box of content to put kind of crepes  */
+.floating_box {
+  float: right;
+  width: 250px;
+  height: 270px;
+  margin: 0;
+  border: 3px solid #73ad21;
+  text-align: center;
+}
+
+img {
+  height: 70%;
+}
+
+.add_button {
+  background: -webkit-linear-gradient(right, #a6f77b, #58b180);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-top: 5%;
+  width: 35%;
+  cursor: context-menu;
+  box-shadow: 0px 1px 18px #569c69;
+  border-radius: 0.5em;
+}
